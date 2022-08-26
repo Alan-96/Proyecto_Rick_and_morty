@@ -18,7 +18,7 @@ fetch(url)
         let personajes = document.getElementById('personaje')
         personajes.innerHTML = dato.results.map(
             dato => `
-            <div class='card text-center col-12 col-sm-5 col-md-5 mx-auto mb-5 gradiante sombras' style='background: #68ddbd;'>
+            <div class='card text-center col-12 col-sm-5 col-md-5 mx-auto mb-5 gradiante sombras'>
                 <div class='row g-0'>
                     <div class='col-md-4'>
                         <img src='${dato.image}' class='img-fluid rounded-start mt-3'>
@@ -53,7 +53,7 @@ const next = () =>{
             let characters = document.getElementById('personaje')
             characters.innerHTML = data.results.map(item => `
             
-            <div class='card text-center col-12 col-sm-5 col-md-5 mx-auto mb-5 gradiante sombras' style='background: #68ddbd;'>
+            <div class='card text-center col-12 col-sm-5 col-md-5 mx-auto mb-5 gradiante sombras'>
             <div class='row g-0'>
                 <div class='col-md-4'>
                     <img src='${item.image}' class='img-fluid rounded-start mt-3'>
@@ -86,7 +86,7 @@ const prev = () =>{
             let characters = document.getElementById('personaje')
             characters.innerHTML = data.results.map(item => `
             
-            <div class='card text-center col-12 col-sm-5 col-md-5 mx-auto mb-5 gradiante sombras' style='background: #68ddbd;'>
+            <div class='card text-center col-12 col-sm-5 col-md-5 mx-auto mb-5 gradiante sombras'>
             <div class='row g-0'>
                 <div class='col-md-4'>
                     <img src='${item.image}' class='img-fluid rounded-start mt-3'>
